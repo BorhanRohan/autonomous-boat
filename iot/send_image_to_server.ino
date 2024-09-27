@@ -29,7 +29,7 @@
 #define FLASH_LED_PIN 4             
 
 //======================================== Insert your network credentials.
-const char* ssid = "iot";
+const char* ssid = "GT";
 const char* password = "12345678";
 //======================================== 
 
@@ -39,7 +39,7 @@ const int Interval = 5000; //--> Photo capture every 20 seconds.
 //======================================== 
 
 // Server Address or Server IP.
-String serverName = "192.168.0.10";  //--> Change with your server computer's IP address or your Domain name.
+String serverName = "192.168.196.152";  //--> Change with your server computer's IP address or your Domain name.
 String serverPath = "/upload";
 // Server Port.
 const int serverPort = 5000;
